@@ -399,6 +399,7 @@ newsArrowL.addEventListener("click", () => {
             newsPrecentItem += newsItem.offsetWidth + 33;
             newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
         } else if (newsPrecentItem < 0) {
+            newsPrecentItem += newsItem.offsetWidth + 34;
             newsList.style.transform = `translate3d(0px,0px,0px)`;
         }
     }
@@ -418,10 +419,7 @@ newsArrowR.addEventListener("click", () => {
             newsArrowR.style.color = "#e3e3e3";
             newsArrowL.style.color = "#c8aa6e";
         }
-        if (newsPrecentItem > -500) {
-            newsPrecentItem -= newsItem.offsetWidth + 33;
-            newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
-        } else if (newsPrecentItem > -1000) {
+        if (newsPrecentItem > -800) {
             newsPrecentItem -= newsItem.offsetWidth + 34;
             newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
         }
