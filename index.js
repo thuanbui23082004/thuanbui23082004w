@@ -419,9 +419,16 @@ newsArrowR.addEventListener("click", () => {
             newsArrowR.style.color = "#e3e3e3";
             newsArrowL.style.color = "#c8aa6e";
         }
-        if (newsPrecentItem > -800) {
-            newsPrecentItem -= newsItem.offsetWidth + 34;
-            newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
+        if (role.offsetWidth > 400) {
+            if (newsPrecentItem > -750) {
+                newsPrecentItem -= newsItem.offsetWidth + 34;
+                newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
+            }
+        } else {
+            if (newsPrecentItem > -450) {
+                newsPrecentItem -= newsItem.offsetWidth + 34;
+                newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
+            }
         }
     }
 });
