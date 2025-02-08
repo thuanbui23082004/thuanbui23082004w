@@ -5,6 +5,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>League of Legends Homepage</title>
         <link
+            href="https://db.onlinewebfonts.com/c/12420e8c141ca7c3dff41de2d59df13e?family=Beaufort+for+LOL+Bold"
+            rel="stylesheet"
+        />
+        <link
             rel="stylesheet/less"
             type="text/css"
             href="./assets/css/styles.less"
@@ -112,7 +116,7 @@
             <header>
                 <div class="navbar">
                     <div class="nav__left">
-                        <a href="">
+                        <span class="logo__open" style="cursor: pointer">
                             <svg
                                 width="85"
                                 height="27"
@@ -125,10 +129,92 @@
                                 ></path>
                             </svg>
                             <i class="fa-solid fa-caret-down act"></i>
-                        </a>
+                        </span>
                     </div>
+                    <a href="#!" class="logo__minW">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="85"
+                            height="32"
+                            viewBox="0 0 85 32"
+                            fill="none"
+                            class="league"
+                        >
+                            <g clip-path="url(#clip0)">
+                                <path
+                                    d="M59.7261 17.2695V31.749H56.5229L49.6035 22.34V31.749H46.5347V18.6228L45.8335 17.2695H49.801L56.6573 26.8087V17.2695H59.7261Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M27.8345 31.9991C28.8909 32.0048 29.8667 31.8267 30.7619 31.467C31.6582 31.1072 32.4307 30.6082 33.0828 29.9721C33.7337 29.336 34.2444 28.5811 34.6148 27.7098C34.8813 27.0828 35.0531 26.4205 35.1314 25.7238C35.1618 25.4532 35.2143 24.3614 35.1582 23.7025H27.8649L26.5665 26.3131H31.7704C31.5694 27.1376 31.1148 27.8171 30.409 28.3287C29.7019 28.8415 28.8559 29.095 27.8707 29.0904C27.2373 29.087 26.646 28.9637 26.0979 28.7204C25.5498 28.4772 25.073 28.1483 24.6675 27.7338C24.2608 27.3192 23.9441 26.8327 23.7139 26.2743C23.4848 25.7158 23.3715 25.1197 23.375 24.487C23.3785 23.8544 23.4977 23.2594 23.7326 22.7032C23.9675 22.1471 24.29 21.664 24.7014 21.2529C25.1116 20.8418 25.5884 20.522 26.1318 20.2902C26.6752 20.0595 27.263 19.9453 27.8976 19.9476C28.7565 19.9522 29.515 20.1417 30.1752 20.5163C30.8355 20.8909 31.3462 21.4299 31.7085 22.1334L34.588 20.7858C33.9885 19.6141 33.1026 18.6948 31.9305 18.0279C30.7584 17.3621 29.4261 17.0252 27.9338 17.0172C26.8774 17.0115 25.877 17.2034 24.9328 17.5905C23.9874 17.9776 23.1646 18.5098 22.4646 19.1882C21.7646 19.8654 21.2072 20.6579 20.7947 21.5635C20.381 22.4691 20.173 23.4387 20.1671 24.4699C20.1613 25.5011 20.3576 26.473 20.7538 27.3832C21.1511 28.2933 21.6922 29.0904 22.3782 29.7745C23.0641 30.4586 23.8752 30.9999 24.8089 31.3962C25.7415 31.7924 26.7512 31.9934 27.8345 31.9991Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M3.90672 17.2686H0L0.737403 18.7657V30.2542L0 31.7503H8.9657L9.77906 28.917H3.90672V17.2686Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M10.8613 31.7503H19.6003V28.9181H14.0423V25.7411H18.3394L19.1177 23.0185H14.0423V20.0893H19.6003V17.2686H10.8613V31.7503Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M36.2681 31.7503H45.007V28.9181H39.4491V25.7411H43.7473L44.5244 23.0185H39.4491V20.0893H45.007V17.2686H36.2681V31.7503Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M41.8662 14.9822C42.9227 14.9879 43.8985 14.8098 44.7936 14.45C45.69 14.0903 46.4624 13.5912 47.1145 12.9551C47.7654 12.3191 48.2761 11.5642 48.6466 10.6928C48.913 10.0659 49.0848 9.40352 49.1631 8.7069C49.1935 8.43625 49.2461 7.3445 49.19 6.68556H41.8966L40.5983 9.29503H45.8022C45.6011 10.1196 45.1466 10.799 44.4407 11.3107C43.7337 11.8234 42.8876 12.0769 41.9024 12.0724C41.269 12.069 40.6777 11.9456 40.1296 11.7024C39.5816 11.4591 39.1048 11.1302 38.6992 10.7157C38.2926 10.3011 37.9759 9.81464 37.7456 9.25621C37.5166 8.69777 37.4032 8.10164 37.4067 7.46897C37.4102 6.83631 37.5294 6.24132 37.7643 5.68517C37.9992 5.12901 38.3218 4.64595 38.7331 4.23483C39.1433 3.82371 39.6201 3.50395 40.1635 3.27212C40.7069 3.04144 41.2948 2.92724 41.9293 2.92952C42.7883 2.93409 43.5467 3.12366 44.207 3.49824C44.8673 3.87281 45.3779 4.41184 45.7402 5.11531L48.6197 3.76775C48.0202 2.59606 47.1344 1.67675 45.9623 1.00982C44.7901 0.344031 43.4579 0.00714122 41.9656 -0.000852784C40.9091 -0.00656279 39.9088 0.185293 38.9645 0.572432C38.0191 0.95957 37.1964 1.49174 36.4964 2.17009C35.7964 2.8473 35.2389 3.63985 34.8264 4.54545C34.4127 5.45106 34.2047 6.42062 34.1989 7.45184C34.193 8.48307 34.3893 9.45491 34.7855 10.3651C35.1828 11.2753 35.7239 12.0724 36.4099 12.7564C37.0959 13.4405 37.9069 13.9818 38.8406 14.3781C39.7732 14.7766 40.7817 14.9776 41.8662 14.9822Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M3.90672 0.252441H0L0.737403 1.7496V13.2381L0 14.7342H8.9657L9.77906 11.8997H3.90672V0.252441Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M10.8613 14.7342H19.6003V11.9008H14.0423V8.72494H18.3394L19.1177 6.00241H14.0423V3.07318H19.6003V0.252441H10.8613V14.7342Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M63.5688 14.7342H72.3067V11.9008H66.7498V8.72494H71.0469L71.824 6.00241H66.7498V3.07318H72.3067V0.252441H63.5688V14.7342Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M29.397 0.252441H24.8779L25.8338 2.09906L20.6147 14.7353H23.8659L24.9737 11.91H30.8519L31.9913 14.7353H35.3055L29.397 0.252441ZM26.0594 9.14063L27.9677 4.27457L29.8013 9.14063H26.0594Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M80.6094 4.23486V10.7477H82.2466V8.54591H83.9365L84.3455 7.11385H82.2466V5.71033H84.647V4.23486H80.6094Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M76.5625 4.10547C74.6553 4.10547 73.1045 5.62433 73.1045 7.4915C73.1045 9.35867 74.6553 10.8775 76.5625 10.8775C78.4697 10.8775 80.0204 9.35867 80.0204 7.4915C80.0204 5.62433 78.4685 4.10547 76.5625 4.10547ZM76.5625 9.30614C75.5423 9.30614 74.7125 8.49189 74.7125 7.4915C74.7125 6.49111 75.5423 5.67686 76.5625 5.67686C77.5827 5.67686 78.4124 6.49111 78.4124 7.4915C78.4124 8.49189 77.5827 9.30614 76.5625 9.30614Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M56.2401 14.9854C55.3099 14.9854 54.4778 14.8438 53.7451 14.5617C53.0124 14.2796 52.3918 13.8765 51.8847 13.3523C51.3775 12.8293 50.986 12.1955 50.7114 11.4509C50.4367 10.7075 50.2988 9.88065 50.2988 8.97161V0.252441H53.5125V8.80717C53.5125 9.78586 53.7451 10.5567 54.2102 11.122C54.6753 11.6873 55.352 11.9694 56.2401 11.9694C57.1283 11.9694 57.8049 11.6873 58.27 11.122C58.7351 10.5567 58.9677 9.78586 58.9677 8.80717V0.252441H62.1814V8.97276C62.1814 9.88179 62.0435 10.7086 61.7689 11.452C61.4943 12.1955 61.1028 12.8293 60.5956 13.3535C60.0884 13.8776 59.4679 14.2796 58.7351 14.5628C58.0012 14.8438 57.1703 14.9854 56.2401 14.9854Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M80.8372 23.1624L78.8365 22.7866C77.9367 22.6176 77.4412 22.1243 77.4412 21.3968C77.4412 20.4056 78.4813 19.8129 79.4863 19.8129C79.8287 19.8129 81.5325 19.8997 81.8831 21.5601L84.6399 20.2446C84.2332 19.0637 83.0155 17.0161 79.4664 17.0161C76.6045 17.0161 74.2754 19.0706 74.2754 21.5955C74.2754 23.7368 75.7408 25.307 78.1938 25.7958L80.1956 26.191C81.1843 26.3839 81.7745 26.9333 81.7745 27.6596C81.7745 28.5994 80.9599 29.1704 79.6487 29.1841C78.0582 29.2001 76.7727 28.0444 76.5741 26.907L73.9248 28.3516C74.5325 30.285 76.4046 32.0026 79.6289 32.0026C81.6576 32.0026 82.9104 31.2363 83.6034 30.5934C84.4927 29.77 85.0022 28.636 85.0022 27.4826C84.9999 25.3036 83.4047 23.6489 80.8372 23.1624Z"
+                                    fill="#C28F2C"
+                                ></path>
+                                <path
+                                    d="M73.0452 21.6891C72.6514 20.8086 72.1138 20.0457 71.4325 19.3982C70.7501 18.7519 69.9519 18.2425 69.038 17.8702C68.123 17.4979 66.8211 17.2661 66.1258 17.2661H61.1147V31.7467H66.1165C67.1437 31.7467 68.1148 31.5651 69.0298 31.1951C69.9449 30.824 70.743 30.3158 71.4267 29.6705C72.1092 29.0242 72.6491 28.2624 73.0429 27.382C73.4379 26.5026 73.6354 25.5536 73.6366 24.5361C73.6354 23.5186 73.4391 22.5696 73.0452 21.6891ZM70.0454 26.2251C69.8198 26.7481 69.5137 27.2015 69.1268 27.5864C68.7389 27.9712 68.2784 28.2773 67.7432 28.5034C67.208 28.7295 66.6377 28.8426 66.0335 28.8426H64.2817V20.2205H66.0393C66.6447 20.2205 67.2138 20.3347 67.749 20.5619C68.2831 20.7892 68.7435 21.0952 69.1315 21.4801C69.5183 21.8661 69.8233 22.3229 70.0489 22.8528C70.2733 23.3827 70.3866 23.9434 70.3854 24.5338C70.3843 25.1402 70.2709 25.7032 70.0454 26.2251Z"
+                                    fill="#C28F2C"
+                                ></path>
+                            </g>
+                            <defs>
+                                <clippath id="clip0">
+                                    <rect
+                                        width="85"
+                                        height="32"
+                                        fill="white"
+                                    ></rect>
+                                </clippath>
+                            </defs>
+                        </svg>
+                    </a>
                     <div class="nav__center">
-                        <a href="" class="logo">
+                        <a href="#!" target="_blank" class="logo">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="25"
@@ -156,15 +242,24 @@
                                     ></path>
                                 </g>
                             </svg>
+
                             <ul class="list">
                                 <li>
                                     <div class="item">
-                                        <a href="" class="item__link">Game</a>
+                                        <a
+                                            href="https://www.leagueoflegends.com/en-us/how-to-play/"
+                                            target="_blank"
+                                            class="item__link"
+                                            >Game</a
+                                        >
                                     </div>
                                 </li>
                                 <li>
                                     <div class="item">
-                                        <a href="" class="item__link"
+                                        <a
+                                            href="https://www.leagueoflegends.com/en-us/champions/"
+                                            target="_blank"
+                                            class="item__link"
                                             >Champions</a
                                         >
                                     </div>
@@ -180,42 +275,58 @@
                                         </a>
                                         <ul class="sub--menu">
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/"
+                                                    class="sub--item"
                                                     >ALL</a
                                                 >
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/game-updates/"
+                                                    class="sub--item"
                                                     >GAME UPDATES</a
                                                 >
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/esports/"
+                                                    class="sub--item"
                                                     >ESPORTS</a
                                                 >
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/dev/"
+                                                    class="sub--item"
                                                     >DEV</a
                                                 >
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/lore/"
+                                                    class="sub--item"
                                                     >LORE</a
                                                 >
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/media/"
+                                                    class="sub--item"
                                                     >MEDIA</a
                                                 >
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/merch/"
+                                                    class="sub--item"
                                                     >MERCH</a
                                                 >
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item"
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/community/"
+                                                    class="sub--item"
                                                     >COMMUNITY</a
                                                 >
                                             </li>
@@ -224,7 +335,11 @@
                                 </li>
                                 <li>
                                     <div class="item">
-                                        <a href="" class="item__link">
+                                        <a
+                                            href="https://www.leagueoflegends.com/en-us/news/tags/patch-notes/"
+                                            target="_blank"
+                                            class="item__link"
+                                        >
                                             Patch Notes
                                         </a>
                                     </div>
@@ -240,12 +355,20 @@
                                         </a>
                                         <ul class="sub--menu">
                                             <li>
-                                                <a href="#!" class="sub--item">
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/community/join-the-community/"
+                                                    target="_blank"
+                                                    class="sub--item"
+                                                >
                                                     COMMUNITY
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item">
+                                                <a
+                                                    href="https://support-leagueoflegends.riotgames.com/hc/vi/articles/29658317853587-Li%C3%AAn-Minh-Huy%E1%BB%81n-Tho%E1%BA%A1i-%C4%90%E1%BA%A1i-S%E1%BA%A3nh-Huy%E1%BB%81n-Tho%E1%BA%A1i"
+                                                    target="_blank"
+                                                    class="sub--item"
+                                                >
                                                     HALL OF LEGENDS
                                                     <svg
                                                         width="7"
@@ -265,12 +388,20 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item">
+                                                <a
+                                                    href="https://displays.riotgames.com/en-us/"
+                                                    target="_blank"
+                                                    class="sub--item"
+                                                >
                                                     LEAGUE DISPLAYS
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#!" class="sub--item">
+                                                <a
+                                                    href="https://www.leagueoflegends.com/en-us/news/riot-games/hello-riot-mobile-farewell-league/"
+                                                    target="_blank"
+                                                    class="sub--item"
+                                                >
                                                     RIOT MOBILE
                                                 </a>
                                             </li>
@@ -279,7 +410,10 @@
                                 </li>
                                 <li>
                                     <div class="item">
-                                        <a href="" class="item__link"
+                                        <a
+                                            href="https://lolesports.com/vi-VN/"
+                                            target="_blank"
+                                            class="item__link"
                                             >Esports
                                             <svg
                                                 width="7"
@@ -298,26 +432,10 @@
                                 </li>
                                 <li>
                                     <div class="item">
-                                        <a href="" class="item__link"
-                                            >Shop
-                                            <svg
-                                                width="7"
-                                                height="7"
-                                                viewBox="0 0 16 16"
-                                            >
-                                                <title>mainNavLinkOut</title>
-                                                <path
-                                                    fill-rule="evenodd"
-                                                    clip-rule="evenodd"
-                                                    d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
-                                                ></path>
-                                            </svg>
-                                        </a>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="item">
-                                        <a href="" class="item__link"
+                                        <a
+                                            href="https://universe.leagueoflegends.com/en_US/"
+                                            target="_blank"
+                                            class="item__link"
                                             >Universe
                                             <svg
                                                 width="7"
@@ -336,7 +454,32 @@
                                 </li>
                                 <li>
                                     <div class="item">
-                                        <a href="" class="item__link"
+                                        <a
+                                            href="https://merch.riotgames.com/en-us/"
+                                            target="_blank"
+                                            class="item__link"
+                                            >Shop
+                                            <svg
+                                                width="7"
+                                                height="7"
+                                                viewBox="0 0 16 16"
+                                            >
+                                                <title>mainNavLinkOut</title>
+                                                <path
+                                                    fill-rule="evenodd"
+                                                    clip-rule="evenodd"
+                                                    d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                                ></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item">
+                                        <a
+                                            href="https://support.riotgames.com/hc/en-us/"
+                                            target="_blank"
+                                            class="item__link"
                                             >Support
                                             <svg
                                                 width="7"
@@ -355,7 +498,115 @@
                                 </li>
                                 <li>
                                     <div class="item">
-                                        <a href="" class="item__link">PBE </a>
+                                        <a
+                                            href="https://www.leagueoflegends.com/vi-vn/pbe/"
+                                            target="_blank"
+                                            class="item__link"
+                                            >PBE
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="item__more item">
+                                        <a href="" class="item__link"
+                                            >More
+                                            <i
+                                                class="fa-solid fa-caret-down act"
+                                            >
+                                            </i>
+                                        </a>
+                                        <ul class="sub--menu">
+                                            <li>
+                                                <a href="#!" class="sub--item">
+                                                    Discover
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="sub--item">
+                                                    Esports
+                                                    <svg
+                                                        width="7"
+                                                        height="7"
+                                                        viewBox="0 0 16 16"
+                                                    >
+                                                        <title>
+                                                            mainNavLinkOut
+                                                        </title>
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            clip-rule="evenodd"
+                                                            d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                                            fill="#737373"
+                                                        ></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="sub--item">
+                                                    Universe
+                                                    <svg
+                                                        width="7"
+                                                        height="7"
+                                                        viewBox="0 0 16 16"
+                                                    >
+                                                        <title>
+                                                            mainNavLinkOut
+                                                        </title>
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            clip-rule="evenodd"
+                                                            d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                                            fill="#737373"
+                                                        ></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="sub--item">
+                                                    Shop
+                                                    <svg
+                                                        width="7"
+                                                        height="7"
+                                                        viewBox="0 0 16 16"
+                                                    >
+                                                        <title>
+                                                            mainNavLinkOut
+                                                        </title>
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            clip-rule="evenodd"
+                                                            d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                                            fill="#737373"
+                                                        ></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="sub--item">
+                                                    Support
+                                                    <svg
+                                                        width="7"
+                                                        height="7"
+                                                        viewBox="0 0 16 16"
+                                                    >
+                                                        <title>
+                                                            mainNavLinkOut
+                                                        </title>
+                                                        <path
+                                                            fill-rule="evenodd"
+                                                            clip-rule="evenodd"
+                                                            d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                                            fill="#737373"
+                                                        ></path>
+                                                    </svg>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#!" class="sub--item">
+                                                    PBE
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </li>
                             </ul>
@@ -382,13 +633,18 @@
                         </a>
 
                         <a href="" class="btn__link">Play Now</a>
+                        <i
+                            class="fa-solid fa-bars bars__icon"
+                            style="color: #f0f0f0"
+                        >
+                        </i>
                     </div>
                 </div>
                 <div class="mega__menu">
                     <div class="mega__body">
                         <div class="mega__top">
                             <div class="mega__top--left">
-                                <a href="">
+                                <a href="#!" class="riot__game">
                                     <svg
                                         width="85"
                                         height="27"
@@ -412,70 +668,287 @@
                                 <div class="mega__col">
                                     <div class="list">
                                         <div class="title">
-                                            <a href="">GAMES</a>
+                                            <a href="" class="mega__title--name"
+                                                >GAMES</a
+                                            >
+                                            <i
+                                                class="fa-solid fa-caret-down mega__act"
+                                            ></i>
                                         </div>
-                                        <ul>
-                                            <li class="LEAGUE OF LEGENDS">
-                                                <a href="" class="item">
+                                        <ul class="mega__sub--list">
+                                            <li
+                                                class="LEAGUE OF LEGENDS mega__li"
+                                            >
+                                                <a href="" class="mega__item">
                                                     LEAGUE OF LEGENDS
                                                 </a>
                                             </li>
-                                            <li class="VALORANT">
-                                                <a href="" class="item"
+                                            <li class="VALORANT mega__li">
+                                                <a href="" class="mega__item"
                                                     >VALORANT</a
                                                 >
                                             </li>
-                                            <li class="TACTICS">
-                                                <a href="" class="item">
+                                            <li class="TACTICS mega__li">
+                                                <a href="" class="mega__item">
                                                     TEAMFIGHT TACTICS
                                                 </a>
                                             </li>
-                                            <li class="RUNETERRA">
-                                                <a href="" class="item">
+                                            <li class="RUNETERRA mega__li">
+                                                <a href="" class="mega__item">
                                                     LEGENDS OF RUNETERRA
                                                 </a>
                                             </li>
-                                            <li class="RIFT">
-                                                <a href="" class="item">
+                                            <li class="RIFT mega__li">
+                                                <a href="" class="mega__item">
                                                     LOL: WILD RIFT
                                                 </a>
                                             </li>
+                                        </ul>
+                                        <ul class="mega__sub--img">
+                                            <div
+                                                class="mega__box"
+                                                style="
+                                                    border-radius: 8px;
+                                                    overflow: hidden;
+                                                "
+                                            >
+                                                <div class="mega__box--img">
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/1/Screenshot 2025-01-12 193130.png"
+                                                        alt=""
+                                                        class="mega__image--thu"
+                                                    />
+                                                    <div
+                                                        id="mega__img--bg"
+                                                        style="
+                                                            background-image: radial-gradient(
+                                                                160.43% 179.54%
+                                                                    at 100.43%
+                                                                    100%,
+                                                                rgb(
+                                                                        88,
+                                                                        111,
+                                                                        119
+                                                                    )
+                                                                    0%,
+                                                                rgb(10, 10, 10)
+                                                                    70%
+                                                            );
+                                                        "
+                                                    ></div>
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/1/img__1.jpg"
+                                                        alt=""
+                                                        id="mega__image--item"
+                                                    />
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/1/title1.svg"
+                                                        alt=""
+                                                        id="mega__image--title"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="mega__box"
+                                                style="
+                                                    border-radius: 8px;
+                                                    overflow: hidden;
+                                                "
+                                            >
+                                                <div class="mega__box--img">
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/1/Screenshot 2025-01-12 193130.png"
+                                                        alt=""
+                                                        class="mega__image--thu"
+                                                    />
+                                                    <div
+                                                        id="mega__img--bg"
+                                                        style="
+                                                            background-image: radial-gradient(
+                                                                160.43% 179.54%
+                                                                    at 100.43%
+                                                                    100%,
+                                                                rgb(22, 22, 22)
+                                                                    0%,
+                                                                rgb(10, 10, 10)
+                                                                    70%
+                                                            );
+                                                        "
+                                                    ></div>
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/2/c9ab2357a330dc4f3b745292783b219442ff24a6-1920x1080.jpg"
+                                                        alt=""
+                                                        id="mega__image--item"
+                                                    />
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/2/0b590a928c4d540ac983fc993748d7c9d5e09cca-146x98.svg"
+                                                        alt=""
+                                                        id="mega__image--title"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="mega__box"
+                                                style="
+                                                    border-radius: 8px;
+                                                    overflow: hidden;
+                                                "
+                                            >
+                                                <div class="mega__box--img">
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/1/Screenshot 2025-01-12 193130.png"
+                                                        alt=""
+                                                        class="mega__image--thu"
+                                                    />
+                                                    <div
+                                                        id="mega__img--bg"
+                                                        style="
+                                                            background-image: radial-gradient(
+                                                                160.43% 179.54%
+                                                                    at 100.43%
+                                                                    100%,
+                                                                rgb(60, 52, 163)
+                                                                    0%,
+                                                                rgb(10, 10, 10)
+                                                                    70%
+                                                            );
+                                                        "
+                                                    ></div>
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/3/fce3ba7a937c6d491fc3653458c83d5e5f36c0ef-1920x1080.jpg"
+                                                        alt=""
+                                                        id="mega__image--item"
+                                                    />
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/3/5d048c0d4c32f49dca3a95d66355482e5243eae9-148x100.svg"
+                                                        alt=""
+                                                        id="mega__image--title"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="mega__box"
+                                                style="
+                                                    border-radius: 8px;
+                                                    overflow: hidden;
+                                                "
+                                            >
+                                                <div class="mega__box--img">
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/1/Screenshot 2025-01-12 193130.png"
+                                                        alt=""
+                                                        class="mega__image--thu"
+                                                    />
+                                                    <div
+                                                        id="mega__img--bg"
+                                                        style="
+                                                            background-image: radial-gradient(
+                                                                160.43% 179.54%
+                                                                    at 100.43%
+                                                                    100%,
+                                                                rgb(42, 37, 82)
+                                                                    0%,
+                                                                rgb(10, 10, 10)
+                                                                    70%
+                                                            );
+                                                        "
+                                                    ></div>
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/4/95f244060cf64373f7b30e9db7edbbd41f705f04-1920x1080.jpg"
+                                                        alt=""
+                                                        id="mega__image--item"
+                                                    />
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/4/4cb514ef0c1c6cc8c0afe8f0f4e9929757bcf9df-146x48.svg"
+                                                        alt=""
+                                                        id="mega__image--title"
+                                                    />
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="mega__box"
+                                                style="
+                                                    border-radius: 8px;
+                                                    overflow: hidden;
+                                                "
+                                            >
+                                                <div class="mega__box--img">
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/1/Screenshot 2025-01-12 193130.png"
+                                                        alt=""
+                                                        class="mega__image--thu"
+                                                    />
+                                                    <div
+                                                        id="mega__img--bg"
+                                                        style="
+                                                            background-image: radial-gradient(
+                                                                160.43% 179.54%
+                                                                    at 100.43%
+                                                                    100%,
+                                                                rgb(
+                                                                        160,
+                                                                        193,
+                                                                        236
+                                                                    )
+                                                                    0%,
+                                                                rgb(10, 10, 10)
+                                                                    70%
+                                                            );
+                                                        "
+                                                    ></div>
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/5/a0d4a04e8059f9e9426b8a8ed7a2b0174886e754-1320x743.jpg"
+                                                        alt=""
+                                                        id="mega__image--item"
+                                                    />
+                                                    <img
+                                                        src="./assets/image/menu/menu__items/5/4c584a414f13767f7cdec5d5f50295f70e6f3339-144x95.svg"
+                                                        alt=""
+                                                        id="mega__image--title"
+                                                    />
+                                                </div>
+                                            </div>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="mega__col">
                                     <div class="list">
                                         <div class="title">
-                                            <a href="">FORGE</a>
+                                            <a href="" class="mega__title--name"
+                                                >FORGE</a
+                                            >
+                                            <i
+                                                class="fa-solid fa-caret-down mega__act"
+                                            ></i>
                                         </div>
-                                        <ul>
-                                            <li class="RGENCE">
-                                                <a href="" class="item"
+                                        <ul class="mega__sub--list">
+                                            <li class="RGENCE mega__li">
+                                                <a href="" class="mega__item"
                                                     >CONV/RGENCE</a
                                                 >
                                             </li>
-                                            <li class="MAYHEM">
-                                                <a href="" class="item">
+                                            <li class="MAYHEM mega__li">
+                                                <a href="" class="mega__item">
                                                     HEXTECH MAYHEM
                                                 </a>
                                             </li>
-                                            <li class="MAGESEEKER">
-                                                <a href="" class="item">
+                                            <li class="MAGESEEKER mega__li">
+                                                <a href="" class="mega__item">
                                                     THE MAGESEEKER
                                                 </a>
                                             </li>
-                                            <li class="KING">
-                                                <a href="" class="item"
+                                            <li class="KING mega__li">
+                                                <a href="" class="mega__item"
                                                     >RUINED KING</a
                                                 >
                                             </li>
-                                            <li class="NUNU">
-                                                <a href="" class="item"
+                                            <li class="NUNU mega__li">
+                                                <a href="" class="mega__item"
                                                     >SONG OF NUNU</a
                                                 >
                                             </li>
-                                            <li class="GAMES">
-                                                <a href="" class="item">
+                                            <li class="GAMES mega__li">
+                                                <a href="" class="mega__item">
                                                     RIOT FORGE GAMES
                                                 </a>
                                             </li>
@@ -483,16 +956,21 @@
                                     </div>
                                     <div class="list">
                                         <div class="title">
-                                            <a href="">ESPORTS</a>
+                                            <a href="" class="mega__title--name"
+                                                >ESPORTS</a
+                                            >
+                                            <i
+                                                class="fa-solid fa-caret-down mega__act"
+                                            ></i>
                                         </div>
-                                        <ul>
-                                            <li class="LOL">
-                                                <a href="" class="item"
+                                        <ul class="mega__sub--list">
+                                            <li class="LOL mega__li">
+                                                <a href="" class="mega__item"
                                                     >LOL ESPORTS</a
                                                 >
                                             </li>
-                                            <li class="VALORANT">
-                                                <a href="" class="item">
+                                            <li class="VALORANT mega__li">
+                                                <a href="" class="mega__item">
                                                     VALORANT ESPORTS
                                                 </a>
                                             </li>
@@ -502,21 +980,26 @@
                                 <div class="mega__col">
                                     <div class="list">
                                         <div class="title">
-                                            <a href="">ENTERTAINMENT</a>
+                                            <a href="" class="mega__title--name"
+                                                >ENTERTAINMENT</a
+                                            >
+                                            <i
+                                                class="fa-solid fa-caret-down mega__act"
+                                            ></i>
                                         </div>
-                                        <ul>
-                                            <li class="ARCANE">
-                                                <a href="" class="item"
+                                        <ul class="mega__sub--list">
+                                            <li class="ARCANE mega__li">
+                                                <a href="" class="mega__item"
                                                     >ARCANE</a
                                                 >
                                             </li>
-                                            <li class="UNIVERSE">
-                                                <a href="" class="item"
+                                            <li class="UNIVERSE mega__li">
+                                                <a href="" class="mega__item"
                                                     >UNIVERSE</a
                                                 >
                                             </li>
-                                            <li class="MUSIC">
-                                                <a href="" class="item">
+                                            <li class="MUSIC mega__li">
+                                                <a href="" class="mega__item">
                                                     RIOT GAMES MUSIC
                                                 </a>
                                             </li>
@@ -524,26 +1007,31 @@
                                     </div>
                                     <div class="list">
                                         <div class="title">
-                                            <a href="">BUSINESS</a>
+                                            <a href="" class="mega__title--name"
+                                                >BUSINESS</a
+                                            >
+                                            <i
+                                                class="fa-solid fa-caret-down mega__act"
+                                            ></i>
                                         </div>
-                                        <ul>
-                                            <li class="GAMES">
-                                                <a href="" class="item"
+                                        <ul class="mega__sub--list">
+                                            <li class="GAMES mega__li">
+                                                <a href="" class="mega__item"
                                                     >RIOT GAMES</a
                                                 >
                                             </li>
-                                            <li class="MERCH">
-                                                <a href="" class="item"
+                                            <li class="MERCH mega__li">
+                                                <a href="" class="mega__item"
                                                     >RIOT MERCH</a
                                                 >
                                             </li>
-                                            <li class="MOBILE">
-                                                <a href="" class="item"
+                                            <li class="MOBILE mega__li">
+                                                <a href="" class="mega__item"
                                                     >RIOT MOBILE</a
                                                 >
                                             </li>
-                                            <li class="SUPPORT">
-                                                <a href="" class="item"
+                                            <li class="SUPPORT mega__li">
+                                                <a href="" class="mega__item"
                                                     >RIOT SUPPORT</a
                                                 >
                                             </li>
@@ -580,31 +1068,27 @@
                                 </div>
                                 <div class="img__items">
                                     <!-- 1 -->
-                                    <div class="box">
+                                    <div
+                                        class="box"
+                                        style="
+                                            border-radius: 8px;
+                                            overflow: hidden;
+                                        "
+                                    >
                                         <div class="box__img">
                                             <img
                                                 src="./assets/image/menu/menu__items/1/Screenshot 2025-01-12 193130.png"
                                                 alt=""
                                                 class="image__thu"
                                             />
-                                            <div
-                                                id="img__bg"
-                                                style="
-                                                    background-image: radial-gradient(
-                                                        160.43% 179.54% at
-                                                            100.43% 100%,
-                                                        rgb(88, 111, 119) 0%,
-                                                        rgb(10, 10, 10) 70%
-                                                    );
-                                                "
-                                            ></div>
+                                            <div id="img__bg"></div>
                                             <img
                                                 src="./assets/image/menu/menu__items/20/1d1c0b2d99b5da39e0eb5ae4b136c5c3a604e30c-1320x743.jpg"
                                                 alt=""
                                                 id="image__item"
                                             />
                                             <img
-                                                src="./assets/image/menu/menu__items/2/0b590a928c4d540ac983fc993748d7c9d5e09cca-146x98.svg"
+                                                src="./assets/image/menu/menu__items/5/4c584a414f13767f7cdec5d5f50295f70e6f3339-144x95.svg"
                                                 alt=""
                                                 id="image__title"
                                             />
@@ -629,15 +1113,832 @@
                                                     ></path>
                                                 </svg>
                                             </div>
+                                            <div class="title__custom">abc</div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="mega__bg"></div>
+                </div>
+                <div class="sidebarrrr">
+                    <div class="sidebar">
+                        <div class="sidebar__top">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="85"
+                                height="32"
+                                viewBox="0 0 85 32"
+                                fill="none"
+                                class="league"
+                            >
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M59.7261 17.2695V31.749H56.5229L49.6035 22.34V31.749H46.5347V18.6228L45.8335 17.2695H49.801L56.6573 26.8087V17.2695H59.7261Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M27.8345 31.9991C28.8909 32.0048 29.8667 31.8267 30.7619 31.467C31.6582 31.1072 32.4307 30.6082 33.0828 29.9721C33.7337 29.336 34.2444 28.5811 34.6148 27.7098C34.8813 27.0828 35.0531 26.4205 35.1314 25.7238C35.1618 25.4532 35.2143 24.3614 35.1582 23.7025H27.8649L26.5665 26.3131H31.7704C31.5694 27.1376 31.1148 27.8171 30.409 28.3287C29.7019 28.8415 28.8559 29.095 27.8707 29.0904C27.2373 29.087 26.646 28.9637 26.0979 28.7204C25.5498 28.4772 25.073 28.1483 24.6675 27.7338C24.2608 27.3192 23.9441 26.8327 23.7139 26.2743C23.4848 25.7158 23.3715 25.1197 23.375 24.487C23.3785 23.8544 23.4977 23.2594 23.7326 22.7032C23.9675 22.1471 24.29 21.664 24.7014 21.2529C25.1116 20.8418 25.5884 20.522 26.1318 20.2902C26.6752 20.0595 27.263 19.9453 27.8976 19.9476C28.7565 19.9522 29.515 20.1417 30.1752 20.5163C30.8355 20.8909 31.3462 21.4299 31.7085 22.1334L34.588 20.7858C33.9885 19.6141 33.1026 18.6948 31.9305 18.0279C30.7584 17.3621 29.4261 17.0252 27.9338 17.0172C26.8774 17.0115 25.877 17.2034 24.9328 17.5905C23.9874 17.9776 23.1646 18.5098 22.4646 19.1882C21.7646 19.8654 21.2072 20.6579 20.7947 21.5635C20.381 22.4691 20.173 23.4387 20.1671 24.4699C20.1613 25.5011 20.3576 26.473 20.7538 27.3832C21.1511 28.2933 21.6922 29.0904 22.3782 29.7745C23.0641 30.4586 23.8752 30.9999 24.8089 31.3962C25.7415 31.7924 26.7512 31.9934 27.8345 31.9991Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M3.90672 17.2686H0L0.737403 18.7657V30.2542L0 31.7503H8.9657L9.77906 28.917H3.90672V17.2686Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M10.8613 31.7503H19.6003V28.9181H14.0423V25.7411H18.3394L19.1177 23.0185H14.0423V20.0893H19.6003V17.2686H10.8613V31.7503Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M36.2681 31.7503H45.007V28.9181H39.4491V25.7411H43.7473L44.5244 23.0185H39.4491V20.0893H45.007V17.2686H36.2681V31.7503Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M41.8662 14.9822C42.9227 14.9879 43.8985 14.8098 44.7936 14.45C45.69 14.0903 46.4624 13.5912 47.1145 12.9551C47.7654 12.3191 48.2761 11.5642 48.6466 10.6928C48.913 10.0659 49.0848 9.40352 49.1631 8.7069C49.1935 8.43625 49.2461 7.3445 49.19 6.68556H41.8966L40.5983 9.29503H45.8022C45.6011 10.1196 45.1466 10.799 44.4407 11.3107C43.7337 11.8234 42.8876 12.0769 41.9024 12.0724C41.269 12.069 40.6777 11.9456 40.1296 11.7024C39.5816 11.4591 39.1048 11.1302 38.6992 10.7157C38.2926 10.3011 37.9759 9.81464 37.7456 9.25621C37.5166 8.69777 37.4032 8.10164 37.4067 7.46897C37.4102 6.83631 37.5294 6.24132 37.7643 5.68517C37.9992 5.12901 38.3218 4.64595 38.7331 4.23483C39.1433 3.82371 39.6201 3.50395 40.1635 3.27212C40.7069 3.04144 41.2948 2.92724 41.9293 2.92952C42.7883 2.93409 43.5467 3.12366 44.207 3.49824C44.8673 3.87281 45.3779 4.41184 45.7402 5.11531L48.6197 3.76775C48.0202 2.59606 47.1344 1.67675 45.9623 1.00982C44.7901 0.344031 43.4579 0.00714122 41.9656 -0.000852784C40.9091 -0.00656279 39.9088 0.185293 38.9645 0.572432C38.0191 0.95957 37.1964 1.49174 36.4964 2.17009C35.7964 2.8473 35.2389 3.63985 34.8264 4.54545C34.4127 5.45106 34.2047 6.42062 34.1989 7.45184C34.193 8.48307 34.3893 9.45491 34.7855 10.3651C35.1828 11.2753 35.7239 12.0724 36.4099 12.7564C37.0959 13.4405 37.9069 13.9818 38.8406 14.3781C39.7732 14.7766 40.7817 14.9776 41.8662 14.9822Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M3.90672 0.252441H0L0.737403 1.7496V13.2381L0 14.7342H8.9657L9.77906 11.8997H3.90672V0.252441Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M10.8613 14.7342H19.6003V11.9008H14.0423V8.72494H18.3394L19.1177 6.00241H14.0423V3.07318H19.6003V0.252441H10.8613V14.7342Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M63.5688 14.7342H72.3067V11.9008H66.7498V8.72494H71.0469L71.824 6.00241H66.7498V3.07318H72.3067V0.252441H63.5688V14.7342Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M29.397 0.252441H24.8779L25.8338 2.09906L20.6147 14.7353H23.8659L24.9737 11.91H30.8519L31.9913 14.7353H35.3055L29.397 0.252441ZM26.0594 9.14063L27.9677 4.27457L29.8013 9.14063H26.0594Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M80.6094 4.23486V10.7477H82.2466V8.54591H83.9365L84.3455 7.11385H82.2466V5.71033H84.647V4.23486H80.6094Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M76.5625 4.10547C74.6553 4.10547 73.1045 5.62433 73.1045 7.4915C73.1045 9.35867 74.6553 10.8775 76.5625 10.8775C78.4697 10.8775 80.0204 9.35867 80.0204 7.4915C80.0204 5.62433 78.4685 4.10547 76.5625 4.10547ZM76.5625 9.30614C75.5423 9.30614 74.7125 8.49189 74.7125 7.4915C74.7125 6.49111 75.5423 5.67686 76.5625 5.67686C77.5827 5.67686 78.4124 6.49111 78.4124 7.4915C78.4124 8.49189 77.5827 9.30614 76.5625 9.30614Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M56.2401 14.9854C55.3099 14.9854 54.4778 14.8438 53.7451 14.5617C53.0124 14.2796 52.3918 13.8765 51.8847 13.3523C51.3775 12.8293 50.986 12.1955 50.7114 11.4509C50.4367 10.7075 50.2988 9.88065 50.2988 8.97161V0.252441H53.5125V8.80717C53.5125 9.78586 53.7451 10.5567 54.2102 11.122C54.6753 11.6873 55.352 11.9694 56.2401 11.9694C57.1283 11.9694 57.8049 11.6873 58.27 11.122C58.7351 10.5567 58.9677 9.78586 58.9677 8.80717V0.252441H62.1814V8.97276C62.1814 9.88179 62.0435 10.7086 61.7689 11.452C61.4943 12.1955 61.1028 12.8293 60.5956 13.3535C60.0884 13.8776 59.4679 14.2796 58.7351 14.5628C58.0012 14.8438 57.1703 14.9854 56.2401 14.9854Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M80.8372 23.1624L78.8365 22.7866C77.9367 22.6176 77.4412 22.1243 77.4412 21.3968C77.4412 20.4056 78.4813 19.8129 79.4863 19.8129C79.8287 19.8129 81.5325 19.8997 81.8831 21.5601L84.6399 20.2446C84.2332 19.0637 83.0155 17.0161 79.4664 17.0161C76.6045 17.0161 74.2754 19.0706 74.2754 21.5955C74.2754 23.7368 75.7408 25.307 78.1938 25.7958L80.1956 26.191C81.1843 26.3839 81.7745 26.9333 81.7745 27.6596C81.7745 28.5994 80.9599 29.1704 79.6487 29.1841C78.0582 29.2001 76.7727 28.0444 76.5741 26.907L73.9248 28.3516C74.5325 30.285 76.4046 32.0026 79.6289 32.0026C81.6576 32.0026 82.9104 31.2363 83.6034 30.5934C84.4927 29.77 85.0022 28.636 85.0022 27.4826C84.9999 25.3036 83.4047 23.6489 80.8372 23.1624Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                    <path
+                                        d="M73.0452 21.6891C72.6514 20.8086 72.1138 20.0457 71.4325 19.3982C70.7501 18.7519 69.9519 18.2425 69.038 17.8702C68.123 17.4979 66.8211 17.2661 66.1258 17.2661H61.1147V31.7467H66.1165C67.1437 31.7467 68.1148 31.5651 69.0298 31.1951C69.9449 30.824 70.743 30.3158 71.4267 29.6705C72.1092 29.0242 72.6491 28.2624 73.0429 27.382C73.4379 26.5026 73.6354 25.5536 73.6366 24.5361C73.6354 23.5186 73.4391 22.5696 73.0452 21.6891ZM70.0454 26.2251C69.8198 26.7481 69.5137 27.2015 69.1268 27.5864C68.7389 27.9712 68.2784 28.2773 67.7432 28.5034C67.208 28.7295 66.6377 28.8426 66.0335 28.8426H64.2817V20.2205H66.0393C66.6447 20.2205 67.2138 20.3347 67.749 20.5619C68.2831 20.7892 68.7435 21.0952 69.1315 21.4801C69.5183 21.8661 69.8233 22.3229 70.0489 22.8528C70.2733 23.3827 70.3866 23.9434 70.3854 24.5338C70.3843 25.1402 70.2709 25.7032 70.0454 26.2251Z"
+                                        fill="#C28F2C"
+                                    ></path>
+                                </g>
+                                <defs>
+                                    <clippath id="clip0">
+                                        <rect
+                                            width="85"
+                                            height="32"
+                                            fill="white"
+                                        ></rect>
+                                    </clippath>
+                                </defs>
+                            </svg>
+
+                            <i class="fa-solid fa-x sidebar__x"></i>
+                        </div>
+                        <div class="sidebar__search">
+                            <form class="search-box">
+                                <i
+                                    class="fa-solid fa-magnifying-glass sidebar__find"
+                                    style="color: #ffffff"
+                                ></i>
+                                <input
+                                    type="text"
+                                    id="sidebar__input"
+                                    placeholder=""
+                                />
+                                <i class="fa-solid fa-x sidebar__x"></i>
+                            </form>
+                        </div>
+                        <ul class="sidebar__list">
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link"
+                                        >Game</a
+                                    >
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link"
+                                        >Champions
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <span class="sidebar__item__link"
+                                        >News
+                                        <i
+                                            class="fa-solid fa-caret-down sidebar__act"
+                                        >
+                                        </i>
+                                    </span>
+                                    <ul class="sidebar__sub--menu">
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >ALL</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >GAME UPDATES</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >ESPORTS</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >DEV</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >LORE</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >MEDIA</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >MERCH</a
+                                            >
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                                >COMMUNITY</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link">
+                                        Patch Notes
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <span class="sidebar__item__link"
+                                        >Discover
+                                        <i
+                                            class="fa-solid fa-caret-down sidebar__act"
+                                        >
+                                        </i>
+                                    </span>
+                                    <ul class="sidebar__sub--menu">
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                            >
+                                                COMMUNITY
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                            >
+                                                HALL OF LEGENDS
+                                                <svg
+                                                    width="7"
+                                                    height="7"
+                                                    viewBox="0 0 16 16"
+                                                >
+                                                    <title>
+                                                        mainNavLinkOut
+                                                    </title>
+                                                    <path
+                                                        fill-rule="evenodd"
+                                                        clip-rule="evenodd"
+                                                        d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                                        fill="#737373"
+                                                    ></path>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                            >
+                                                LEAGUE DISPLAYS
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a
+                                                href="#!"
+                                                class="sidebar__sub--item"
+                                            >
+                                                RIOT MOBILE
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link"
+                                        >Esports
+                                        <svg
+                                            width="7"
+                                            height="7"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <title>mainNavLinkOut</title>
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link"
+                                        >Universe
+                                        <svg
+                                            width="7"
+                                            height="7"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <title>mainNavLinkOut</title>
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link"
+                                        >Shop
+                                        <svg
+                                            width="7"
+                                            height="7"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <title>mainNavLinkOut</title>
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link"
+                                        >Support
+                                        <svg
+                                            width="7"
+                                            height="7"
+                                            viewBox="0 0 16 16"
+                                        >
+                                            <title>mainNavLinkOut</title>
+                                            <path
+                                                fill-rule="evenodd"
+                                                clip-rule="evenodd"
+                                                d="M12.916 4.158c0-.277-.116-.55-.32-.753a1.073 1.073 0 0 0-.752-.32H3.428l.144 2h5.93l-6.803 6.803 1.414 1.414L10.916 6.5v5.928l2 .144V4.158Z"
+                                            ></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="sidebar__item">
+                                    <a href="" class="sidebar__item__link"
+                                        >PBE
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="sidebar__bottom">
+                            <a href="" class="sidebar__btn">PLAY NOW</a>
+                        </div>
+                    </div>
+                    <div class="sidebar__exit"></div>
                 </div>
             </header>
+            <div class="video">
+                <video
+                    data-testid="backdrop-background"
+                    autoplay=""
+                    class="sc-f3d622cf-0 eOxAvt sc-26e0dd2-0 eJReQo"
+                    loop=""
+                    playsinline=""
+                >
+                    <source
+                        data-testid="source-video/webm"
+                        src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/8ab3e227121c53aacab0c9b9f7a48adbc65db520.webm"
+                        type="video/webm"
+                    />
+                </video>
+                <div class="video__content">
+                    <div class="video__logo">
+                        <img
+                            src="./assets/image/video.webp"
+                            alt=""
+                            class="video__logo--img"
+                        />
+                    </div>
+                    <div class="video__btn btn">PLAY FOR FREE</div>
+                </div>
+            </div>
+            <!-- news -->
+            <div class="news">
+                <div class="news__top">
+                    <h2 class="news__heading">featured news</h2>
+                    <div class="news__top--right">
+                        <div class="view__all">view all</div>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </div>
+                </div>
+                <div class="news__list">
+                    <div class="news__item">
+                        <div class="news__figure">
+                            <img
+                                src="./assets/image/news_1.avif"
+                                alt=""
+                                class="news__image"
+                            />
+                            <div class="play__btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="news__item--content">
+                            <div class="news__info">
+                                <div class="news__type">Dev</div>
+                                <div class="news__time">1/29/2025</div>
+                            </div>
+                            <h3 class="news__item--title">
+                                Dev Double Up: Making Unbound and Chibi
+                                Tacticians
+                            </h3>
+                            <p class="news__item--desc">
+                                TFT devs in Singapore team up to show how they
+                                make Tacticians and celebrate the Year of the
+                                Snake.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <div class="news__figure">
+                            <img
+                                src="./assets/image/news_2.avif"
+                                alt=""
+                                class="news__image"
+                            />
+                            <div class="play__btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="news__item--content">
+                            <div class="news__info">
+                                <div class="news__type">Game Updates</div>
+                                <div class="news__time">1/25/2025</div>
+                            </div>
+                            <h3 class="news__item--title">
+                                Dark Cosmic Jhin Unbound Tactician Showcase
+                            </h3>
+                            <p class="news__item--desc">
+                                His planetary performance comes to Treasure
+                                Realms and the Rotating Shop starting in patch
+                                TFT13.4.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="news__item">
+                        <div class="news__figure">
+                            <img
+                                src="./assets/image/news_3.png"
+                                alt=""
+                                class="news__image"
+                            />
+                            <div class="play__btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                        <div class="news__item--content">
+                            <div class="news__info">
+                                <div class="news__time">1/25/2025</div>
+                            </div>
+                            <h3 class="news__item--title">
+                                Uber Has Arrived to the LTA!
+                            </h3>
+                            <p class="news__item--desc">
+                                Uber Has Arrived, helping to deliver The Goods
+                                to the LTA!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="news__bottom">
+                    <div class="news__line">
+                        <div class="news__line--color"></div>
+                    </div>
+                    <div class="news__arrows">
+                        <i
+                            class="fa-solid fa-arrow-left news-arrow-left"
+                            style="color: #e3e3e3"
+                        ></i>
+                        <i
+                            class="fa-solid fa-arrow-right news-arrow-right"
+                            style="color: #c8aa6e"
+                        ></i>
+                    </div>
+                </div>
+            </div>
+            <div class="role">
+                <div class="role__bg">
+                    <img
+                        src="./assets/image/role/role__bg/1.1.webp"
+                        alt=""
+                        class="role__bg--img"
+                    />
+                </div>
+                <div class="role__content">
+                    <div class="role__text">
+                        <div class="role__subtitle">CHOOSE YOUR</div>
+                        <h2 class="role__title">CHAMPION</h2>
+                        <p class="role__desc">
+                            Whether you like to dive straight into the fray,
+                            support your teammates, or something in between,
+                            there’s a spot for you on the Rift.
+                        </p>
+                        <div class="role__btn">
+                            <div class="role__btn--left btn">
+                                Discover More Champions
+                            </div>
+                            <div class="role__btn--right btn">Play Now</div>
+                        </div>
+                        <div class="role__menu">
+                            <div class="role__list">
+                                <div class="role__item">
+                                    <div class="role__item--icon">
+                                        <img
+                                            src="./assets/image/role/role__item/1.webp"
+                                            alt=""
+                                            class="role__icon--img"
+                                            style="filter: brightness(100%)"
+                                        />
+                                    </div>
+                                    <div class="role__item--name">
+                                        ASSASSINS
+                                    </div>
+                                </div>
+                                <div class="role__item">
+                                    <div class="role__item--icon">
+                                        <img
+                                            src="./assets/image/role/role__item/2.avif"
+                                            alt=""
+                                            class="role__icon--img"
+                                        />
+                                    </div>
+                                    <div class="role__item--name">FIGHTERS</div>
+                                </div>
+                                <div class="role__item">
+                                    <div class="role__item--icon">
+                                        <img
+                                            src="./assets/image/role/role__item/3.avif"
+                                            alt=""
+                                            class="role__icon--img"
+                                        />
+                                    </div>
+                                    <div class="role__item--name">MAGES</div>
+                                </div>
+                                <div class="role__item">
+                                    <div class="role__item--icon">
+                                        <img
+                                            src="./assets/image/role/role__item/4.avif"
+                                            alt=""
+                                            class="role__icon--img"
+                                        />
+                                    </div>
+                                    <div class="role__item--name">MARKSMEN</div>
+                                </div>
+                                <div class="role__item">
+                                    <div class="role__item--icon">
+                                        <img
+                                            src="./assets/image/role/role__item/5.avif"
+                                            alt=""
+                                            class="role__icon--img"
+                                        />
+                                    </div>
+                                    <div class="role__item--name">SUPPORTS</div>
+                                </div>
+                                <div class="role__item">
+                                    <div class="role__item--icon">
+                                        <img
+                                            src="./assets/image/role/role__item/6.avif"
+                                            alt=""
+                                            class="role__icon--img"
+                                        />
+                                    </div>
+                                    <div class="role__item--name">TANKS</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="role__text--bottom">
+                            <div class="role__line">
+                                <div class="role__line--color"></div>
+                            </div>
+                            <div class="role__arrows">
+                                <i
+                                    class="fa-solid fa-arrow-left role-arrow-left"
+                                    style="color: #e3e3e3"
+                                ></i>
+                                <i
+                                    class="fa-solid fa-arrow-right role-arrow-right"
+                                    style="color: #c8aa6e"
+                                ></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="role__media">
+                        <img
+                            src="./assets/image/role/role__media/1.avif"
+                            alt=""
+                            class="role__media--img"
+                        />
+                        <div class="role__header">Akali</div>
+                        <div class="role__info">The Rogue Assassin</div>
+                    </div>
+                </div>
+            </div>
+            <div class="style">
+                <div class="style__bg">
+                    <img
+                        src="./assets/image/style/style__bg.avif"
+                        alt=""
+                        class="style__bg--img"
+                    />
+                </div>
+                <div class="style__main">
+                    <div class="style__media">
+                        <img
+                            src="./assets/image/style/style__media.avif"
+                            alt=""
+                            class="style__media--img"
+                        />
+                    </div>
+                    <div class="style__content">
+                        <div class="style__subTitle">SLAY WITH</div>
+                        <h2 class="style__title">STYLE</h2>
+                        <div class="style__desc">
+                            Make it personal by changing up the look of your
+                            favorite champions with skins.
+                        </div>
+                        <div class="style__btn btn">PLAY NOW</div>
+                    </div>
+                </div>
+            </div>
+            <div class="spot">
+                <div class="spot__bg">
+                    <img
+                        src="./assets/image/spot/1bg.avif"
+                        alt=""
+                        class="spot__bg--img"
+                    />
+                </div>
+                <div class="spot__main">
+                    <div class="spot__content">
+                        <div class="spot_text">
+                            <div class="spot__subTitle">MULTIPLE WAYS TO</div>
+                            <h2 class="spot__title">PLAY</h2>
+                            <div class="spot__desc">
+                                Whether you like to dive straight into the fray,
+                                support your teammates, or something in between,
+                                there’s a spot for you on the Rift.
+                            </div>
+                            <div class="spot__btn btn">PLAY NOW</div>
+                        </div>
+                        <div class="spot__list">
+                            <div class="spot__item">
+                                <img
+                                    src="./assets/image/spot/item_1.webp"
+                                    alt=""
+                                    class="spot__img"
+                                />
+                                <div class="spot__name">SUMMONER'S RIFT</div>
+                            </div>
+                            <div class="spot__item">
+                                <img
+                                    src="./assets/image/spot/item_2.avif"
+                                    alt=""
+                                    class="spot__img"
+                                />
+                                <div class="spot__name">ARAM</div>
+                            </div>
+                            <div class="spot__item">
+                                <img
+                                    src="./assets/image/spot/item_3.avif"
+                                    alt=""
+                                    class="spot__img"
+                                />
+                                <div class="spot__name">TEAMFIGHT TACTICS</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spot__media">
+                        <video
+                            autoplay=""
+                            data-testid="icon-tab-media"
+                            class="spot__video"
+                            loop=""
+                            playsinline=""
+                        >
+                            <source
+                                data-testid="source-video/mp4"
+                                src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/bbc27473157462adacf0de441a8796268eb2d0ac.mp4"
+                                type="video/mp4"
+                                class="video__source"
+                            />
+                        </video>
+                        <div class="spot__media--title">
+                            THE MOST POPULAR GAME MODE
+                        </div>
+                        <div class="spot__media--desc">
+                            Clear your lane, dive into epic 5v5 team fights, and
+                            destroy the enemy nexus before they destroy yours.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video__bottom">
+                <video
+                    data-testid="backdrop-embed-video"
+                    autoplay=""
+                    class="video."
+                    loop=""
+                    playsinline=""
+                >
+                    <source
+                        data-testid="source-video/mp4"
+                        src="https://cmsassets.rgpub.io/sanity/files/dsfx7636/news/1f5b2cf01a1cf2afa1ce61febee6e2e900808347.mp4"
+                        type="video/mp4"
+                    />
+                </video>
+                <div class="video__content">
+                    <div class="video__btn btn">PLAY FOR FREE</div>
+                </div>
+            </div>
+            <footer
+                style="background-color: rgb(17, 17, 17); padding-bottom: 48px"
+            >
+                <div class="footer__top">
+                    <a href="" class="footer__top--item link">
+                        ABOUT LEAGUE OF LEGENDS
+                    </a>
+                    <a href="" class="footer__top--item link"
+                        >Help Us Improve</a
+                    >
+                    <a href="" class="footer__top--item link">Server Status</a>
+                    <a href="" class="footer__top--item link">Support</a>
+                    <a href="" class="footer__top--item link"
+                        >Esports Pro Site</a
+                    >
+                    <a href="" class="footer__top--item link">
+                        Download Riot Mobile Companion App
+                    </a>
+                </div>
+
+                <div class="foot__brands">
+                    <a href="" class="foot__brand">
+                        <svg viewBox="0 0 16.67 11.67">
+                            <title>youtube</title>
+                            <path
+                                d="M14.85.36a2.08 2.08 0 0 1 1.47 1.47 20.5 20.5 0 0 1 .34 4 22.19 22.19 0 0 1-.34 4 2.1 2.1 0 0 1-1.47 1.47 51.13 51.13 0 0 1-6.52.34 48.46 48.46 0 0 1-6.52-.36A2.07 2.07 0 0 1 .34 9.82a23.82 23.82 0 0 1 0-8A2.11 2.11 0 0 1 1.81.34a49.68 49.68 0 0 1 6.52-.35 48.31 48.31 0 0 1 6.52.37Zm-3.84 5.48-4.34 2.5v-5Z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a href="" class="foot__brand"
+                        ><svg viewBox="0 0 1200 1227">
+                            <title>twitter</title>
+                            <path
+                                d="M714.163 519.284 1160.89 0h-105.86L667.137 450.887 357.328 0H0l468.492 681.821L0 1226.37h105.866l409.625-476.152 327.181 476.152H1200L714.137 519.284h.026ZM569.165 687.828l-47.468-67.894-377.686-540.24h162.604l304.797 435.991 47.468 67.894 396.2 566.721H892.476L569.165 687.854v-.026Z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a href="" class="foot__brand">
+                        <svg viewBox="0 0 15 15">
+                            <title>facebook</title>
+                            <path
+                                d="M15 7.54A7.5 7.5 0 1 0 6.33 15V9.73h-1.9V7.54h1.9V5.91a2.65 2.65 0 0 1 2.83-3 12.09 12.09 0 0 1 1.68.14v1.86H9.9a1.09 1.09 0 0 0-1.23 1.18V7.5h2.08l-.33 2.19H8.67v5.27A7.54 7.54 0 0 0 15 7.54Z"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a href="" class="foot__brand"
+                        ><svg viewBox="0 0 13.26 13.3">
+                            <title>instagram</title>
+                            <path
+                                d="M6.67 3.24a3.43 3.43 0 1 0 3.42 3.44 3.43 3.43 0 0 0-3.42-3.44Zm0 5.65a2.22 2.22 0 1 1 2.22-2.22 2.21 2.21 0 0 1-2.22 2.22Z"
+                                transform="translate(-.04 .05)"
+                                style="fill: #fdfefe; fill-rule: evenodd"
+                            ></path>
+                            <path
+                                d="M11 3.08a.8.8 0 1 1-.8-.8.8.8 0 0 1 .8.8Z"
+                                transform="translate(-.04 .05)"
+                                style="fill: #fdfefe"
+                            ></path>
+                            <path
+                                d="M6.67 0H3.92A5 5 0 0 0 2.3.31a3.31 3.31 0 0 0-1.18.77 3.31 3.31 0 0 0-.77 1.18A5.29 5.29 0 0 0 0 3.88v5.5A5.22 5.22 0 0 0 .35 11a3.35 3.35 0 0 0 .77 1.19 3.42 3.42 0 0 0 1.18.76 4.75 4.75 0 0 0 1.62.31h5.5a4.75 4.75 0 0 0 1.58-.32 3.15 3.15 0 0 0 1.18-.76A3.35 3.35 0 0 0 13 11a5 5 0 0 0 .31-1.61V3.88A5 5 0 0 0 13 2.26a3.46 3.46 0 0 0-2-2A5 5 0 0 0 9.37 0a26.88 26.88 0 0 1-2.7 0Zm0 1.2h2.69a3.78 3.78 0 0 1 1.24.23 2.21 2.21 0 0 1 1.27 1.27 3.67 3.67 0 0 1 .23 1.23v5.39a3.78 3.78 0 0 1-.23 1.24 2.21 2.21 0 0 1-1.27 1.27 3.77 3.77 0 0 1-1.24.22H4a3.77 3.77 0 0 1-1.24-.22 2.21 2.21 0 0 1-1.27-1.27 3.78 3.78 0 0 1-.23-1.24V3.93a3.67 3.67 0 0 1 .21-1.23 2.21 2.21 0 0 1 1.27-1.27A3.78 3.78 0 0 1 4 1.2c.68.01.89 0 2.67 0Z"
+                                transform="translate(-.04 .05)"
+                                style="fill: #fdfefe; fill-rule: evenodd"
+                            ></path>
+                        </svg>
+                    </a>
+                    <a href="" class="foot__brand"
+                        ><svg viewBox="0 0 24 24">
+                            <title>reddit</title>
+                            <path
+                                fill="#fff"
+                                d="M14.2 15.3c.1.1.1.2 0 .3-.5.5-1.2.7-2.2.7-1 0-1.8-.2-2.2-.7-.1-.1-.1-.2 0-.3.1-.1.2-.1.3 0 .4.4 1 .6 1.9.6.9 0 1.5-.2 1.9-.6h.3zm-3.4-2.4c0-.5-.4-.9-.9-.9s-.9.4-.9.9.4.9.9.9.9-.4.9-.9zM24 12c0 6.6-5.4 12-12 12S0 18.6 0 12 5.4 0 12 0s12 5.4 12 12zm-5-.1c0-.9-.7-1.5-1.5-1.5-.4 0-.8.2-1.1.4-1.1-.7-2.5-1.1-4.1-1.2l.9-2.7 2.3.5c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3-.6-1.3-1.3-1.3c-.5 0-1 .3-1.2.8l-2.5-.6c-.1 0-.2 0-.3.1l-1 3c-1.7 0-3.2.5-4.3 1.2-.3-.3-.6-.4-1-.4-.8.1-1.5.8-1.5 1.7 0 .6.3 1.1.8 1.3 0 .2-.1.3-.1.5 0 2.3 2.8 4.1 6.3 4.1s6.3-1.9 6.3-4.1v-.5c.4-.2.7-.7.7-1.3zm-4.9.1c-.5 0-.9.4-.9.9s.4.9.9.9.9-.4.9-.9c.1-.5-.4-.9-.9-.9z"
+                            ></path>
+                        </svg>
+                    </a>
+                </div>
+                <a href="" class="foot__logo">
+                    <svg width="99" height="32" viewBox="0 0 587.93 165">
+                        <title>Riot Games</title>
+                        <title>riotLogo-mobile21</title>
+                        <path
+                            d="M98.77.33 0 46.07l24.61 93.66 18.73-2.3-5.15-58.89 6.15-2.74L54.96 136l32.01-3.93-5.69-65 6.09-2.71 11.68 66.23 32.38-3.98-6.23-71.25 6.16-2.74 12.77 72.43 32.01-3.93V19.71L98.77.33zm2.32 142.05 1.63 9.22 73.42 12.24v-30.68l-75.01 9.22h-.04zm144.49-19.22v12.63h15.57a14.84 14.84 0 0 1-1.92 7.31 13 13 0 0 1-5.6 5.11 20 20 0 0 1-8.9 1.8 17.53 17.53 0 0 1-10-2.8 17.87 17.87 0 0 1-6.44-8.14 33.06 33.06 0 0 1-2.27-12.93 31.81 31.81 0 0 1 2.32-12.81 18.14 18.14 0 0 1 6.5-8 17.27 17.27 0 0 1 9.82-2.78 19.31 19.31 0 0 1 5.36.71 14.15 14.15 0 0 1 4.33 2.09 12.92 12.92 0 0 1 3.18 3.29 15.61 15.61 0 0 1 2 4.44h17.27a27.22 27.22 0 0 0-3.46-10.28 28.84 28.84 0 0 0-7.05-8.1 32.6 32.6 0 0 0-9.91-5.29 37.91 37.91 0 0 0-12.06-1.86 37.32 37.32 0 0 0-14 2.6 32.6 32.6 0 0 0-11.36 7.61 35 35 0 0 0-7.61 12.21 46.15 46.15 0 0 0-2.73 16.44q0 11.94 4.54 20.59a32.4 32.4 0 0 0 12.69 13.27 39.84 39.84 0 0 0 35.84.84 28.39 28.39 0 0 0 11.67-11q4.25-7.19 4.24-17.2v-9.76Zm215.03 40.81V88.53h51.67v13.96h-34.62v16.76h27.99v13.96h-27.99v16.8h34.7v13.96h-51.75zm101.83-53.3a9 9 0 0 0-3.54-6.64c-2.09-1.59-5-2.38-8.69-2.38a16.63 16.63 0 0 0-6.26 1 8.62 8.62 0 0 0-3.83 2.78 6.74 6.74 0 0 0-1.33 4 6.2 6.2 0 0 0 .79 3.29 7.27 7.27 0 0 0 2.4 2.45 16.54 16.54 0 0 0 3.7 1.79 40.14 40.14 0 0 0 4.64 1.31l6.63 1.54a47.19 47.19 0 0 1 9.45 3.08 27.46 27.46 0 0 1 7.2 4.68 18.84 18.84 0 0 1 4.58 6.39 20.37 20.37 0 0 1 1.61 8.29 20.65 20.65 0 0 1-3.54 12.11 22.56 22.56 0 0 1-10.15 7.85 41.31 41.31 0 0 1-15.93 2.76 42.69 42.69 0 0 1-16.17-2.81 23.22 23.22 0 0 1-10.72-8.48q-3.83-5.66-4-14.12h16.43a10.68 10.68 0 0 0 7.05 9.94 19.37 19.37 0 0 0 7.24 1.26 18.44 18.44 0 0 0 6.66-1.09 10 10 0 0 0 4.33-3 7.22 7.22 0 0 0 1.57-4.48 6.16 6.16 0 0 0-1.42-4 10.86 10.86 0 0 0-4.14-2.81 42.07 42.07 0 0 0-6.89-2.14l-8.07-1.95q-9.65-2.3-15.23-7.26t-5.54-13.44a19.86 19.86 0 0 1 3.72-12.12 24.74 24.74 0 0 1 10.33-8.11 36.74 36.74 0 0 1 15-2.91 35.62 35.62 0 0 1 14.92 2.91 23.43 23.43 0 0 1 9.91 8.14 21.54 21.54 0 0 1 3.6 12.12Zm-113.99 53.3h-16.87v-57.35l-1.73-.02-17.04 57.37h-16.86l-16.58-57.37-2.15.02v57.35h-16.87V88.53h28.67l14.48 50.56h1.75l14.48-50.56h28.72v75.44zm-114.66 0h18.27l-25.33-75.43h-23.15l-25.37 75.43h18.3l4.93-16.54h27.42Zm-28.43-29.7 8.22-27.65h3.1l8.26 27.65Zm278.58-37.76a4 4 0 0 1-3.67-2.44 4 4 0 0 1 0-3.1 4 4 0 0 1 .85-1.27 4.25 4.25 0 0 1 1.27-.86 4.15 4.15 0 0 1 3.1 0 4.13 4.13 0 0 1 1.27.86 4.08 4.08 0 0 1 .86 1.27 4 4 0 0 1 0 3.1 4.08 4.08 0 0 1-.86 1.27 4 4 0 0 1-1.27.86 4 4 0 0 1-1.55.31Zm0-1.09a2.84 2.84 0 0 0 1.47-.39 2.94 2.94 0 0 0 1.05-1 2.93 2.93 0 0 0 0-2.92 3 3 0 0 0-1.06-1 2.93 2.93 0 0 0-2.92 0 3 3 0 0 0-1 1 2.86 2.86 0 0 0 0 2.92 3 3 0 0 0 1 1 2.83 2.83 0 0 0 1.46.39Zm-1.46-1.15V90.6h1.78a1.52 1.52 0 0 1 .69.15 1.13 1.13 0 0 1 .47.42 1.24 1.24 0 0 1 .17.66 1.16 1.16 0 0 1-.18.66 1 1 0 0 1-.48.41 1.56 1.56 0 0 1-.7.14h-1.2v-.72h1a.52.52 0 0 0 .36-.12.5.5 0 0 0 .14-.37.47.47 0 0 0-.14-.37.52.52 0 0 0-.36-.12h-.55v2.93Zm2.39-1.68.82 1.68h-1.11l-.75-1.68ZM282.41 1.03h17.05v75.44h-17.05zm98.02 37.72q0 12.42-4.71 21a32.67 32.67 0 0 1-12.79 13.17 38.57 38.57 0 0 1-36.31 0 32.75 32.75 0 0 1-12.79-13.2q-4.71-8.66-4.71-21t4.71-21.05a32.67 32.67 0 0 1 12.75-13.14 38.65 38.65 0 0 1 36.31 0 32.67 32.67 0 0 1 12.79 13.17q4.71 8.64 4.71 21.05m-17.35 0a33.35 33.35 0 0 0-2.23-13 17.47 17.47 0 0 0-6.33-8 18.57 18.57 0 0 0-19.45 0 17.57 17.57 0 0 0-6.35 8 38.59 38.59 0 0 0 0 26 17.49 17.49 0 0 0 6.35 8 18.57 18.57 0 0 0 19.45 0 17.39 17.39 0 0 0 6.33-8 33.4 33.4 0 0 0 2.23-13M246.58 50.17l8.76 26.3h18.71l-9.74-28.33h-13.23l-.79-2.44c2.52-.49 6.83-1.25 10.65-3.85a20 20 0 0 0 8.75-16.39 24.15 24.15 0 0 0-3.26-12.75 21.9 21.9 0 0 0-9.36-8.64 32.56 32.56 0 0 0-14.64-3H212v75.4h17.06v-26.3Zm-.32-15.61a19.35 19.35 0 0 1-7.26 1.18h-9.94V14.88h9.91a18.68 18.68 0 0 1 7.25 1.24 9.12 9.12 0 0 1 4.4 3.7 10 10 0 0 1 1.5 5.64 9.65 9.65 0 0 1-1.48 5.55 8.86 8.86 0 0 1-4.38 3.55M382.04 1.03v14h29.3l.8 2.45c-2.48.48-6.67 1.22-10.43 3.7v55.31h16.87v-61.5h19.62v-14Z"
+                        ></path>
+                    </svg>
+                </a>
+                <div class="foot__desc">
+                    ™ &amp; © 2024 Riot Games, Inc. League of Legends and all
+                    related logos, characters, names and distinctive likenesses
+                    thereof are exclusive property of Riot Games, Inc. All
+                    Rights Reserved.
+                </div>
+                <div class="foot__list">
+                    <a href="" class="link">Privacy Notice</a>
+                    <a href="" class="link">Terms of Service</a>
+                    <a href="" class="link">Cookie Preferences</a>
+                </div>
+                <div class="foot__info">
+                    <div>
+                        <img
+                            src="./assets/image/foot.png"
+                            alt=""
+                            class="foot__info--img"
+                        />
+                        <div class="foot__info--text">
+                            Blood<br />Fantasy Violence<br />Mild Suggestive
+                            Themes<br />Use of Alcohol and Tobacco<br />Online
+                            Interactions Not Rated by the ESRB<br />
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
+        <script src="./index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/less"></script>
     </body>
 </html>
