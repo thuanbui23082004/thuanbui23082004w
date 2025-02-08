@@ -1733,7 +1733,7 @@ footer {
                                     max-width: 340px;
                                 }
                                 .video__btn {
-                                    font-size: 15px !important;
+                                    font-size: 15px;
                                 }
                             }
                         }
@@ -1956,6 +1956,29 @@ footer {
 @media (max-width: 600px) {
     .video__logo--img {
         max-width: 238px !important;
+    }
+    .btn {
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+    .news__list {
+        --wRepo: 101% !important;
+        gap: 35px !important;
+    }
+    .role__btn {
+        flex-direction: column;
+
+        .role__btn--left,
+        .role__btn--right {
+            display: block;
+            width: 100%;
+        }
+    }
+    .style__btn,
+    .spot__btn {
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }
 

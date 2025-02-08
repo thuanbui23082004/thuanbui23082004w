@@ -379,20 +379,53 @@ const newsItem = document.querySelector(".news__item");
 const newsArrowL = document.querySelector(".news-arrow-left");
 const newsArrowR = document.querySelector(".news-arrow-right");
 const newsLine = document.querySelector(".news__line--color");
-
+let newLineCurrent = 0;
+let newsPrecentItem = 0;
 newsArrowL.addEventListener("click", () => {
-    newsList.style.transform = `translate3d(0px, 0px ,0px)`;
-    newsLine.style.width = "0%";
-    newsArrowR.style.color = "#c8aa6e";
-    newsArrowL.style.color = "#e3e3e3";
+    if (role.offsetWidth > 600) {
+        newsList.style.transform = `translate3d(0px, 0px ,0px)`;
+        newsLine.style.width = "0%";
+        newsArrowR.style.color = "#c8aa6e";
+        newsArrowL.style.color = "#e3e3e3";
+    } else {
+        if (newLineCurrent > 0) {
+            newLineCurrent -= 50;
+            newsLine.style.width = `${newLineCurrent}%`;
+            newsArrowR.style.color = "#c8aa6e";
+            newsArrowL.style.color = "#e3e3e3";
+        }
+
+        if (newsPrecentItem < -500) {
+            newsPrecentItem += newsItem.offsetWidth + 33;
+            newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
+        } else if (newsPrecentItem < 0) {
+            newsList.style.transform = `translate3d(0px,0px,0px)`;
+        }
+    }
 });
 newsArrowR.addEventListener("click", () => {
-    newsList.style.transform = `translate3d(-${
-        newsItem.offsetWidth + 32
-    }px, 0px ,0px)`;
-    newsLine.style.width = "100%";
-    newsArrowR.style.color = "#e3e3e3";
-    newsArrowL.style.color = "#c8aa6e";
+    if (role.offsetWidth > 600) {
+        newsList.style.transform = `translate3d(-${
+            newsItem.offsetWidth + 32
+        }px, 0px ,0px)`;
+        newsLine.style.width = "100%";
+        newsArrowR.style.color = "#e3e3e3";
+        newsArrowL.style.color = "#c8aa6e";
+    } else {
+        if (newLineCurrent < 100) {
+            newLineCurrent += 50;
+            newsLine.style.width = `${newLineCurrent}%`;
+            newsArrowR.style.color = "#e3e3e3";
+            newsArrowL.style.color = "#c8aa6e";
+        }
+        if (newsPrecentItem > -500) {
+            newsPrecentItem -= newsItem.offsetWidth + 33;
+            newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
+        } else if (newsPrecentItem > -1000) {
+            newsPrecentItem -= newsItem.offsetWidth + 34;
+            newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
+        }
+    }
 });
 //////role//////////////
 // Select all item boxes
@@ -408,8 +441,6 @@ const roleSubtitle = [
     "The Radiant Dawn",
 ];
 const roleBackground = ["1.1.webp", "2", "3.avif", "4.svg", "5.avif", "6.avif"];
-
-// Add event listeners for each item box
 
 const roleImage = document.querySelector(".role__media--img");
 const roleHeader = document.querySelector(".role__header");
