@@ -421,12 +421,12 @@ newsArrowR.addEventListener("click", () => {
         }
         if (role.offsetWidth > 400) {
             if (newsPrecentItem > -750) {
-                newsPrecentItem -= newsItem.offsetWidth + 34;
+                newsPrecentItem -= newsItem.offsetWidth + 35;
                 newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
             }
         } else {
             if (newsPrecentItem > -450) {
-                newsPrecentItem -= newsItem.offsetWidth + 34;
+                newsPrecentItem -= newsItem.offsetWidth + 35;
                 newsList.style.transform = `translate3d(${newsPrecentItem}px,0px,0px)`;
             }
         }
